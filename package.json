@@ -10,6 +10,9 @@
     "lint-fix": "eslint --fix --cache --ext .js,.ts,.tsx .",
     "start": "next start"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
